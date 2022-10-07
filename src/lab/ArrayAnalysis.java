@@ -1,5 +1,7 @@
 package lab;
 
+import java.util.Scanner;
+
 /*
  * See the link for lab explanation
  * https://docs.google.com/document/d/1QGhcNy-QOFT-J1rOHgeXKv81b5yz0LfEpL_Dl3PPff8/edit#
@@ -12,6 +14,19 @@ public class ArrayAnalysis {
 	
 	//#1
 	public static int[][] createRandom(int row, int column, int min, int max){
+		
+		Scanner inKey = new Scanner(System.in);
+		
+		System.out.println("Enter an integer: ");
+		int num1 = inKey.nextInt();
+		System.out.println("Enter another integer: ");
+		int num2 = inKey.nextInt();
+		System.out.println("Enter another integer: ");
+		int num3 = inKey.nextInt();
+		System.out.println("Enter another integer: ");
+		int num4 = inKey.nextInt();
+		
+		int[][] lit = {{num1, num2, num3, num4,}};
 		
 		
 		return null;
